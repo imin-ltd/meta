@@ -1,0 +1,149 @@
+{
+  "@context": [
+    "https://openactive.io/",
+    "https://imin.co/"
+  ],
+  "id": "https://meta.imin.co/v2",
+  "imin:enumeration": {
+    "AmenityFeatureType": {
+      "id": "https://meta.imin.co/v2#/imin:enumeration/AmenityFeatureType",
+      "type": "imin:Collection",
+      "imin:totalItems": 7,
+      "imin:item": [
+        {
+          "id": "https://search-beta-emd.imin.co/ns#ChangingFacilities",
+          "name": "Changing Facilities",
+          "type": "AmenityFeatureType"
+        },
+        {
+          "id": "https://search-beta-emd.imin.co/ns#Showers",
+          "name": "Showers",
+          "type": "AmenityFeatureType"
+        },
+        {
+          "id": "https://search-beta-emd.imin.co/ns#Lockers",
+          "name": "Lockers",
+          "type": "AmenityFeatureType"
+        },
+        {
+          "id": "https://search-beta-emd.imin.co/ns#Towels",
+          "name": "Towels",
+          "type": "AmenityFeatureType"
+        },
+        {
+          "id": "https://search-beta-emd.imin.co/ns#Toilets",
+          "name": "Toilets",
+          "type": "AmenityFeatureType"
+        },
+        {
+          "id": "https://search-beta-emd.imin.co/ns#Creche",
+          "name": "Creche",
+          "type": "AmenityFeatureType"
+        },
+        {
+          "id": "https://search-beta-emd.imin.co/ns#Parking",
+          "name": "Parking",
+          "type": "AmenityFeatureType"
+        }
+      ]
+    },
+    "PaymentMethod": {
+      "id": "https://meta.imin.co/v2#/imin:enumeration/PaymentMethod",
+      "type": "imin:Collection",
+      "imin:totalItems": 2,
+      "imin:item": [
+        {
+          "id": "http://purl.org/goodrelations/v1#Cash",
+          "name": "Cash",
+          "type": "PaymentMethod"
+        },
+        {
+          "id": "http://purl.org/goodrelations/v1#PaymentMethodCreditCard",
+          "name": "Card",
+          "type": "PaymentMethod"
+        }
+      ]
+    },
+    "GenderType": {
+      "id": "https://meta.imin.co/v2#/imin:enumeration/GenderType",
+      "type": "imin:Collection",
+      "imin:totalItems": 2,
+      "imin:item": [
+        {
+          "id": "https://schema.org/Female",
+          "name": "Female",
+          "type": "GenderType"
+        },
+        {
+          "id": "https://schema.org/Male",
+          "name": "Male",
+          "type": "GenderType"
+        }
+      ]
+    },
+    "GenderRestrictionType": {
+      "id": "https://meta.imin.co/v2#/imin:enumeration/GenderRestrictionType",
+      "type": "imin:Collection",
+      "imin:totalItems": 3,
+      "imin:item": [
+        {
+          "id": "https://openactive.io/FemaleOnly",
+          "name": "Female only",
+          "type": "GenderRestrictionType"
+        },
+        {
+          "id": "https://openactive.io/MaleOnly",
+          "name": "Male only",
+          "type": "GenderRestrictionType"
+        },
+        {
+          "id": "https://openactive.io/NoRestriction",
+          "name": "No restriction",
+          "type": "GenderRestrictionType"
+        }
+      ]
+    },
+    "DayOfWeek": {
+      "type": "imin:Collection",
+      "id": "https://meta.imin.co/v2#/imin:enumeration/DayOfWeek",
+      "imin:totalItems": 7,
+      "imin:item": [
+        {
+          "id": "https://schema.org/Monday",
+          "name": "Monday",
+          "type": "DayOfWeek"
+        },
+        {
+          "id": "https://schema.org/Thursday",
+          "name": "Thursday",
+          "type": "DayOfWeek"
+        },
+        {
+          "id": "https://schema.org/Wednesday",
+          "name": "Wednesday",
+          "type": "DayOfWeek"
+        },
+        {
+          "id": "https://schema.org/Tuesday",
+          "name": "Tuesday",
+          "type": "DayOfWeek"
+        },
+        {
+          "id": "https://schema.org/Saturday",
+          "name": "Saturday",
+          "type": "DayOfWeek"
+        },
+        {
+          "id": "https://schema.org/Friday",
+          "name": "Friday",
+          "type": "DayOfWeek"
+        },
+        {
+          "id": "https://schema.org/Sunday",
+          "name": "Sunday",
+          "type": "DayOfWeek"
+        }
+      ]
+    }
+  }
+}
