@@ -4,4 +4,4 @@ Metadata related to each API version. This includes is provided outside of the S
 
 ## Version 2
 
-[imin API v2 metadata](https://meta.imin.co/v2)
+[imin API v2 metadata](https://meta.imin.co/v2.json)
