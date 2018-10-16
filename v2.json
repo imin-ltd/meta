@@ -11,37 +11,37 @@
       "imin:totalItems": 7,
       "imin:item": [
         {
-          "id": "https://search-beta-emd.imin.co/ns#ChangingFacilities",
+          "id": "ChangingFacilities",
           "name": "Changing Facilities",
           "type": "AmenityFeatureType"
         },
         {
-          "id": "https://search-beta-emd.imin.co/ns#Showers",
+          "id": "Showers",
           "name": "Showers",
           "type": "AmenityFeatureType"
         },
         {
-          "id": "https://search-beta-emd.imin.co/ns#Lockers",
+          "id": "Lockers",
           "name": "Lockers",
           "type": "AmenityFeatureType"
         },
         {
-          "id": "https://search-beta-emd.imin.co/ns#Towels",
+          "id": "Towels",
           "name": "Towels",
           "type": "AmenityFeatureType"
         },
         {
-          "id": "https://search-beta-emd.imin.co/ns#Toilets",
+          "id": "Toilets",
           "name": "Toilets",
           "type": "AmenityFeatureType"
         },
         {
-          "id": "https://search-beta-emd.imin.co/ns#Creche",
+          "id": "Creche",
           "name": "Creche",
           "type": "AmenityFeatureType"
         },
         {
-          "id": "https://search-beta-emd.imin.co/ns#Parking",
+          "id": "Parking",
           "name": "Parking",
           "type": "AmenityFeatureType"
         }
