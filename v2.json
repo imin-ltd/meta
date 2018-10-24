@@ -160,21 +160,21 @@
       "imin:item": [
         {
           "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/strength-and-conditioning.json",
+          "id": "https://data.emduk.org/collections/strength-and-conditioning.jsonld",
           "title": "Strength and Conditioning",
           "description": "Group Exercise and Dance classes considered good for Strength and Conditioning.",
           "beta:creator": "EMD UK"
         },
         {
           "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/holistic.json",
+          "id": "https://data.emduk.org/collections/holistic.jsonld",
           "title": "Holistic",
           "description": "Group Exercise and Dance classes considered Holistic.",
           "beta:creator": "EMD UK"
         },
         {
           "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/cardio.json",
+          "id": "https://data.emduk.org/collections/cardio.jsonld",
           "title": "Cardio",
           "description": "Group Exercise and Dance classes considered good for Cardio.",
           "beta:creator": "EMD UK"
