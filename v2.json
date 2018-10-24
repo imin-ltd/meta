@@ -210,7 +210,7 @@
         },
         {
           "type": "ConceptScheme",
-          "id": "http://data.emduk.org/activity-list/activity-list.jsonld",
+          "id": "https://data.emduk.org/activity-list/activity-list.jsonld",
           "title": "EMD UK Restricted Activity List",
           "description": "List of activities within scope of EMD UK",
           "beta:creator": "EMD UK"
