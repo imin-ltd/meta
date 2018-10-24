@@ -61,6 +61,31 @@
               "subClassOf": "LocationFeatureSpecification"
             }
           ]
+        },
+        "imin:LevelSpecification": {
+          "id": "https://meta.imin.co/v2#/imin:index/subClass/imin:index/imin:LevelSpecification",
+          "type": "imin:Collection",
+          "imin:totalItems": 3,
+          "imin:item": [
+            {
+              "id": "imin:LevelBeginner",
+              "name": "Beginner",
+              "type": "Class",
+              "subClassOf": "imin:LevelSpecification"
+            },
+            {
+              "id": "imin:IntermediateLevel",
+              "name": "Intermediate",
+              "type": "Class",
+              "subClassOf": "imin:LevelSpecification"
+            },
+            {
+              "id": "imin:AdvancedLevel",
+              "name": "Advanced",
+              "type": "Class",
+              "subClassOf": "imin:LevelSpecification"
+            }
+          ]
         }
       }
     },
