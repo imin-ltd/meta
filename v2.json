@@ -167,14 +167,14 @@
         },
         {
           "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/emd-holistic.json",
+          "id": "https://data.emduk.org/collections/holistic.json",
           "title": "Holistic",
           "description": "Group Exercise and Dance classes considered Holistic.",
           "beta:creator": "EMD UK"
         },
         {
           "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/emd-cardio.json",
+          "id": "https://data.emduk.org/collections/cardio.json",
           "title": "Cardio",
           "description": "Group Exercise and Dance classes considered good for Cardio.",
           "beta:creator": "EMD UK"
@@ -182,7 +182,7 @@
       ]
     },
     "scheme": {
-      "id": "https://meta.imin.co/v2#/imin:index/collection",
+      "id": "https://meta.imin.co/v2#/imin:index/scheme",
       "type": "imin:Collection",
       "imin:totalItems": 2,
       "imin:item": [
