@@ -19,43 +19,43 @@
           "imin:totalItems": 7,
           "imin:item": [
             {
-              "id": "oa:ChangingFacilities",
+              "id": "ChangingFacilities",
               "name": "Changing Facilities",
               "type": "Class",
               "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "oa:Showers",
+              "id": "Showers",
               "name": "Showers",
               "type": "Class",
               "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "oa:Lockers",
+              "id": "Lockers",
               "name": "Lockers",
               "type": "Class",
               "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "oa:Towels",
+              "id": "Towels",
               "name": "Towels",
               "type": "Class",
               "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "oa:Toilets",
+              "id": "Toilets",
               "name": "Toilets",
               "type": "Class",
               "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "oa:Creche",
+              "id": "Creche",
               "name": "Creche",
               "type": "Class",
               "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "oa:Parking",
+              "id": "Parking",
               "name": "Parking",
               "type": "Class",
               "subClassOf": "LocationFeatureSpecification"
