@@ -2,70 +2,84 @@
   "@context": [
     "https://openactive.io/",
     "https://openactive.io/ns-beta",
+    "https://openactive.io/extension",
     "https://imin.co/"
   ],
   "type": "imin:CollectionIndex",
   "id": "https://meta.imin.co/v2",
   "description": "A collection of collections of metadata in use the imin APIs",
   "imin:index": {
-    "enumeration": {
+    "subClass": {
       "type": "imin:CollectionIndex",
-      "id": "https://meta.imin.co/v2#/imin:index/enumeration",
+      "id": "https://meta.imin.co/v2#/imin:index/subClass",
       "imin:index": {
-        "AmenityFeatureType": {
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/AmenityFeatureType",
+        "LocationFeatureSpecification": {
+          "id": "https://meta.imin.co/v2#/imin:index/subClass/imin:index/LocationFeatureSpecification",
           "type": "imin:Collection",
           "imin:totalItems": 7,
           "imin:item": [
             {
-              "id": "ChangingFacilities",
+              "id": "oa:ChangingFacilities",
               "name": "Changing Facilities",
-              "type": "AmenityFeatureType"
+              "type": "Class",
+              "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "Showers",
+              "id": "oa:Showers",
               "name": "Showers",
-              "type": "AmenityFeatureType"
+              "type": "Class",
+              "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "Lockers",
+              "id": "oa:Lockers",
               "name": "Lockers",
-              "type": "AmenityFeatureType"
+              "type": "Class",
+              "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "Towels",
+              "id": "oa:Towels",
               "name": "Towels",
-              "type": "AmenityFeatureType"
+              "type": "Class",
+              "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "Toilets",
+              "id": "oa:Toilets",
               "name": "Toilets",
-              "type": "AmenityFeatureType"
+              "type": "Class",
+              "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "Creche",
+              "id": "oa:Creche",
               "name": "Creche",
-              "type": "AmenityFeatureType"
+              "type": "Class",
+              "subClassOf": "LocationFeatureSpecification"
             },
             {
-              "id": "Parking",
+              "id": "oa:Parking",
               "name": "Parking",
-              "type": "AmenityFeatureType"
+              "type": "Class",
+              "subClassOf": "LocationFeatureSpecification"
             }
           ]
-        },
+        }
+      }
+    },
+    "enumeration": {
+      "type": "imin:CollectionIndex",
+      "id": "https://meta.imin.co/v2#/imin:index/enumeration",
+      "imin:index": {
         "PaymentMethod": {
           "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/PaymentMethod",
           "type": "imin:Collection",
           "imin:totalItems": 2,
           "imin:item": [
             {
-              "id": "http://purl.org/goodrelations/v1#Cash",
+              "id": "gr:Cash",
               "name": "Cash",
               "type": "PaymentMethod"
             },
             {
-              "id": "http://purl.org/goodrelations/v1#PaymentMethodCreditCard",
+              "id": "gr:PaymentMethodCreditCard",
               "name": "Card",
               "type": "PaymentMethod"
             }
@@ -77,12 +91,12 @@
           "imin:totalItems": 2,
           "imin:item": [
             {
-              "id": "https://schema.org/Female",
+              "id": "schema:Female",
               "name": "Female",
               "type": "GenderType"
             },
             {
-              "id": "https://schema.org/Male",
+              "id": "schema:Male",
               "name": "Male",
               "type": "GenderType"
             }
@@ -94,17 +108,17 @@
           "imin:totalItems": 3,
           "imin:item": [
             {
-              "id": "https://openactive.io/FemaleOnly",
+              "id": "oa:FemaleOnly",
               "name": "Female only",
               "type": "GenderRestrictionType"
             },
             {
-              "id": "https://openactive.io/MaleOnly",
+              "id": "oa:MaleOnly",
               "name": "Male only",
               "type": "GenderRestrictionType"
             },
             {
-              "id": "https://openactive.io/NoRestriction",
+              "id": "oa:NoRestriction",
               "name": "No restriction",
               "type": "GenderRestrictionType"
             }
@@ -116,37 +130,37 @@
           "imin:totalItems": 7,
           "imin:item": [
             {
-              "id": "https://schema.org/Monday",
+              "id": "schema:Monday",
               "name": "Monday",
               "type": "DayOfWeek"
             },
             {
-              "id": "https://schema.org/Thursday",
+              "id": "schema:Thursday",
               "name": "Thursday",
               "type": "DayOfWeek"
             },
             {
-              "id": "https://schema.org/Wednesday",
+              "id": "schema:Wednesday",
               "name": "Wednesday",
               "type": "DayOfWeek"
             },
             {
-              "id": "https://schema.org/Tuesday",
+              "id": "schema:Tuesday",
               "name": "Tuesday",
               "type": "DayOfWeek"
             },
             {
-              "id": "https://schema.org/Saturday",
+              "id": "schema:Saturday",
               "name": "Saturday",
               "type": "DayOfWeek"
             },
             {
-              "id": "https://schema.org/Friday",
+              "id": "schema:Friday",
               "name": "Friday",
               "type": "DayOfWeek"
             },
             {
-              "id": "https://schema.org/Sunday",
+              "id": "schema:Sunday",
               "name": "Sunday",
               "type": "DayOfWeek"
             }
