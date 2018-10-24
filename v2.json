@@ -1,6 +1,7 @@
 {
   "@context": [
     "https://openactive.io/",
+    "https://openactive.io/ns-beta",
     "https://imin.co/"
   ],
   "type": "imin:CollectionIndex",
