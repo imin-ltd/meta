@@ -68,7 +68,7 @@
           "imin:totalItems": 3,
           "imin:item": [
             {
-              "id": "imin:LevelBeginner",
+              "id": "imin:BeginnerLevel",
               "name": "Beginner",
               "type": "Class",
               "subClassOf": "imin:LevelSpecification"
