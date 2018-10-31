@@ -1,6 +1,6 @@
 window.imin = {};
-window.imin.meta = {};
-window.imin.meta.v2 = {
+window.imin.v2 = {};
+window.imin.v2.meta = {
   "@context": [
     "https://openactive.io/",
     "https://openactive.io/ns-beta",
