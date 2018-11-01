@@ -93,6 +93,28 @@
       "type": "imin:CollectionIndex",
       "id": "https://meta.imin.co/v2#/imin:index/enumeration",
       "imin:index": {
+        "beta:AvailableChannelType": {
+          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/beta:AvailableChannelType",
+          "type": "imin:Collection",
+          "imin:totalItems": 3,
+          "imin:item": [
+            {
+              "id": "beta:OnlinePrepayment",
+              "name": "Online Payment",
+              "type": "beta:AvailableChannelType"
+            },
+            {
+              "id": "beta:TelephoneAdvanceBooking",
+              "name": "Telephone Booking",
+              "type": "beta:AvailableChannelType"
+            },
+            {
+              "id": "beta:TelephonePrepayment",
+              "name": "Telephone Payment",
+              "type": "beta:AvailableChannelType"
+            }
+          ]
+        },
         "PaymentMethod": {
           "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/PaymentMethod",
           "type": "imin:Collection",
