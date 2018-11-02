@@ -215,12 +215,12 @@
         }
       }
     },
-    "collection": {
+    "conceptCollection": {
       "type": "imin:CollectionIndex",
-      "id": "https://meta.imin.co/v2#/imin:index/collection",
+      "id": "https://meta.imin.co/v2#/imin:index/conceptCollection",
       "imin:index": {
         "activity-list": {
-          "id": "https://meta.imin.co/v2#/imin:index/collection/imin:index/activity-list",
+          "id": "https://meta.imin.co/v2#/imin:index/conceptCollection/imin:index/activity-list",
           "type": "imin:Collection",
           "imin:totalItems": 3,
           "imin:item": [
@@ -249,12 +249,12 @@
         }
       }
     },
-    "scheme": {
+    "conceptScheme": {
       "type": "imin:CollectionIndex",
-      "id": "https://meta.imin.co/v2#/imin:index/scheme",
+      "id": "https://meta.imin.co/v2#/imin:index/conceptScheme",
       "imin:index": {
         "activity-list": {
-          "id": "https://meta.imin.co/v2#/imin:index/scheme/imin:index/activity-list",
+          "id": "https://meta.imin.co/v2#/imin:index/conceptScheme/imin:index/activity-list",
           "type": "imin:Collection",
           "imin:totalItems": 2,
           "imin:item": [
