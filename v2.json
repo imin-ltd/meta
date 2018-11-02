@@ -11,10 +11,10 @@
   "imin:index": {
     "Class": {
       "type": "imin:CollectionIndex",
-      "id": "https://meta.imin.co/v2#/imin:index/subClass",
+      "id": "https://meta.imin.co/v2#/imin:index/Class",
       "imin:index": {
         "LocationFeatureSpecification": {
-          "id": "https://meta.imin.co/v2#/imin:index/subClass/imin:index/LocationFeatureSpecification",
+          "id": "https://meta.imin.co/v2#/imin:index/Class/imin:index/LocationFeatureSpecification",
           "type": "imin:Collection",
           "imin:totalItems": 7,
           "imin:item": [
@@ -63,7 +63,7 @@
           ]
         },
         "imin:LevelSpecification": {
-          "id": "https://meta.imin.co/v2#/imin:index/subClass/imin:index/imin:LevelSpecification",
+          "id": "https://meta.imin.co/v2#/imin:index/Class/imin:index/imin:LevelSpecification",
           "type": "imin:Collection",
           "imin:totalItems": 3,
           "imin:item": [
@@ -91,10 +91,10 @@
     },
     "Enumeration": {
       "type": "imin:CollectionIndex",
-      "id": "https://meta.imin.co/v2#/imin:index/enumeration",
+      "id": "https://meta.imin.co/v2#/imin:index/Enumeration",
       "imin:index": {
         "beta:AvailableChannelType": {
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/beta:AvailableChannelType",
+          "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/beta:AvailableChannelType",
           "type": "imin:Collection",
           "imin:totalItems": 3,
           "imin:item": [
@@ -116,7 +116,7 @@
           ]
         },
         "PaymentMethod": {
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/PaymentMethod",
+          "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/PaymentMethod",
           "type": "imin:Collection",
           "imin:totalItems": 2,
           "imin:item": [
@@ -133,7 +133,7 @@
           ]
         },
         "GenderType": {
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/GenderType",
+          "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/GenderType",
           "type": "imin:Collection",
           "imin:totalItems": 2,
           "imin:item": [
@@ -150,7 +150,7 @@
           ]
         },
         "GenderRestrictionType": {
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/GenderRestrictionType",
+          "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/GenderRestrictionType",
           "type": "imin:Collection",
           "imin:totalItems": 3,
           "imin:item": [
@@ -173,7 +173,7 @@
         },
         "DayOfWeek": {
           "type": "imin:Collection",
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/DayOfWeek",
+          "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/DayOfWeek",
           "imin:totalItems": 7,
           "imin:item": [
             {
@@ -217,10 +217,10 @@
     },
     "beta:ConceptCollection": {
       "type": "imin:CollectionIndex",
-      "id": "https://meta.imin.co/v2#/imin:index/conceptCollection",
+      "id": "https://meta.imin.co/v2#/imin:index/beta:ConceptCollection",
       "imin:index": {
         "activity": {
-          "id": "https://meta.imin.co/v2#/imin:index/conceptCollection/imin:index/activity",
+          "id": "https://meta.imin.co/v2#/imin:index/beta:ConceptCollection/imin:index/activity",
           "type": "imin:Collection",
           "imin:totalItems": 3,
           "imin:item": [
@@ -254,10 +254,10 @@
     },
     "ConceptScheme": {
       "type": "imin:CollectionIndex",
-      "id": "https://meta.imin.co/v2#/imin:index/conceptScheme",
+      "id": "https://meta.imin.co/v2#/imin:index/ConceptScheme",
       "imin:index": {
         "activity": {
-          "id": "https://meta.imin.co/v2#/imin:index/conceptScheme/imin:index/activity",
+          "id": "https://meta.imin.co/v2#/imin:index/ConceptScheme/imin:index/activity",
           "type": "imin:Collection",
           "imin:totalItems": 2,
           "imin:item": [
