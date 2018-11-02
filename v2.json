@@ -9,7 +9,7 @@
   "id": "https://meta.imin.co/v2",
   "description": "A collection of collections of metadata in use the imin APIs",
   "imin:index": {
-    "subClass": {
+    "Class": {
       "type": "imin:CollectionIndex",
       "id": "https://meta.imin.co/v2#/imin:index/subClass",
       "imin:index": {
@@ -89,7 +89,7 @@
         }
       }
     },
-    "enumeration": {
+    "Enumeration": {
       "type": "imin:CollectionIndex",
       "id": "https://meta.imin.co/v2#/imin:index/enumeration",
       "imin:index": {
@@ -215,11 +215,11 @@
         }
       }
     },
-    "conceptCollection": {
+    "beta:ConceptCollection": {
       "type": "imin:CollectionIndex",
       "id": "https://meta.imin.co/v2#/imin:index/conceptCollection",
       "imin:index": {
-        "activity-list": {
+        "activity": {
           "id": "https://meta.imin.co/v2#/imin:index/conceptCollection/imin:index/activity-list",
           "type": "imin:Collection",
           "imin:totalItems": 3,
@@ -229,31 +229,34 @@
               "id": "https://data.emduk.org/collections/strength-and-conditioning.jsonld",
               "title": "Strength and Conditioning",
               "description": "Group Exercise and Dance classes considered good for Strength and Conditioning.",
-              "beta:creator": "EMD UK"
+              "beta:creator": "EMD UK",
+              "beta:targetScheme": "https://openactive.io/activity-list"
             },
             {
               "type": "beta:ConceptCollection",
               "id": "https://data.emduk.org/collections/holistic.jsonld",
               "title": "Holistic",
               "description": "Group Exercise and Dance classes considered Holistic.",
-              "beta:creator": "EMD UK"
+              "beta:creator": "EMD UK",
+              "beta:targetScheme": "https://openactive.io/activity-list"
             },
             {
               "type": "beta:ConceptCollection",
               "id": "https://data.emduk.org/collections/cardio.jsonld",
               "title": "Cardio",
               "description": "Group Exercise and Dance classes considered good for Cardio.",
-              "beta:creator": "EMD UK"
+              "beta:creator": "EMD UK",
+              "beta:targetScheme": "https://openactive.io/activity-list"
             }
           ]
         }
       }
     },
-    "conceptScheme": {
+    "ConceptScheme": {
       "type": "imin:CollectionIndex",
       "id": "https://meta.imin.co/v2#/imin:index/conceptScheme",
       "imin:index": {
-        "activity-list": {
+        "activity": {
           "id": "https://meta.imin.co/v2#/imin:index/conceptScheme/imin:index/activity-list",
           "type": "imin:Collection",
           "imin:totalItems": 2,
