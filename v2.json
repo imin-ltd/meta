@@ -9,12 +9,12 @@
   "id": "https://meta.imin.co/v2",
   "description": "A collection of collections of metadata in use the imin APIs",
   "imin:index": {
-    "subClass": {
+    "Class": {
       "type": "imin:CollectionIndex",
-      "id": "https://meta.imin.co/v2#/imin:index/subClass",
+      "id": "https://meta.imin.co/v2#/imin:index/Class",
       "imin:index": {
         "LocationFeatureSpecification": {
-          "id": "https://meta.imin.co/v2#/imin:index/subClass/imin:index/LocationFeatureSpecification",
+          "id": "https://meta.imin.co/v2#/imin:index/Class/imin:index/LocationFeatureSpecification",
           "type": "imin:Collection",
           "imin:totalItems": 7,
           "imin:item": [
@@ -63,7 +63,7 @@
           ]
         },
         "imin:LevelSpecification": {
-          "id": "https://meta.imin.co/v2#/imin:index/subClass/imin:index/imin:LevelSpecification",
+          "id": "https://meta.imin.co/v2#/imin:index/Class/imin:index/imin:LevelSpecification",
           "type": "imin:Collection",
           "imin:totalItems": 3,
           "imin:item": [
@@ -89,12 +89,12 @@
         }
       }
     },
-    "enumeration": {
+    "Enumeration": {
       "type": "imin:CollectionIndex",
-      "id": "https://meta.imin.co/v2#/imin:index/enumeration",
+      "id": "https://meta.imin.co/v2#/imin:index/Enumeration",
       "imin:index": {
         "beta:AvailableChannelType": {
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/beta:AvailableChannelType",
+          "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/beta:AvailableChannelType",
           "type": "imin:Collection",
           "imin:totalItems": 3,
           "imin:item": [
@@ -116,7 +116,7 @@
           ]
         },
         "PaymentMethod": {
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/PaymentMethod",
+          "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/PaymentMethod",
           "type": "imin:Collection",
           "imin:totalItems": 2,
           "imin:item": [
@@ -133,7 +133,7 @@
           ]
         },
         "GenderType": {
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/GenderType",
+          "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/GenderType",
           "type": "imin:Collection",
           "imin:totalItems": 2,
           "imin:item": [
@@ -150,7 +150,7 @@
           ]
         },
         "GenderRestrictionType": {
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/GenderRestrictionType",
+          "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/GenderRestrictionType",
           "type": "imin:Collection",
           "imin:totalItems": 3,
           "imin:item": [
@@ -173,7 +173,7 @@
         },
         "DayOfWeek": {
           "type": "imin:Collection",
-          "id": "https://meta.imin.co/v2#/imin:index/enumeration/imin:index/DayOfWeek",
+          "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/DayOfWeek",
           "imin:totalItems": 7,
           "imin:item": [
             {
@@ -215,54 +215,69 @@
         }
       }
     },
-    "collection": {
-      "id": "https://meta.imin.co/v2#/imin:index/collection",
-      "type": "imin:Collection",
-      "imin:totalItems": 3,
-      "imin:item": [
-        {
-          "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/strength-and-conditioning.jsonld",
-          "title": "Strength and Conditioning",
-          "description": "Group Exercise and Dance classes considered good for Strength and Conditioning.",
-          "beta:creator": "EMD UK"
-        },
-        {
-          "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/holistic.jsonld",
-          "title": "Holistic",
-          "description": "Group Exercise and Dance classes considered Holistic.",
-          "beta:creator": "EMD UK"
-        },
-        {
-          "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/cardio.jsonld",
-          "title": "Cardio",
-          "description": "Group Exercise and Dance classes considered good for Cardio.",
-          "beta:creator": "EMD UK"
+    "beta:ConceptCollection": {
+      "type": "imin:CollectionIndex",
+      "id": "https://meta.imin.co/v2#/imin:index/beta:ConceptCollection",
+      "imin:index": {
+        "activity": {
+          "id": "https://meta.imin.co/v2#/imin:index/beta:ConceptCollection/imin:index/activity",
+          "type": "imin:Collection",
+          "imin:totalItems": 3,
+          "imin:item": [
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://data.emduk.org/collections/strength-and-conditioning.jsonld",
+              "title": "Strength and Conditioning",
+              "description": "Group Exercise and Dance classes considered good for Strength and Conditioning.",
+              "beta:creator": "EMD UK",
+              "beta:targetScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://data.emduk.org/collections/holistic.jsonld",
+              "title": "Holistic",
+              "description": "Group Exercise and Dance classes considered Holistic.",
+              "beta:creator": "EMD UK",
+              "beta:targetScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://data.emduk.org/collections/cardio.jsonld",
+              "title": "Cardio",
+              "description": "Group Exercise and Dance classes considered good for Cardio.",
+              "beta:creator": "EMD UK",
+              "beta:targetScheme": "https://openactive.io/activity-list"
+            }
+          ]
         }
-      ]
+      }
     },
-    "scheme": {
-      "id": "https://meta.imin.co/v2#/imin:index/scheme",
-      "type": "imin:Collection",
-      "imin:totalItems": 2,
-      "imin:item": [
-        {
-          "type": "ConceptScheme",
-          "id": "https://openactive.io/activity-list",
-          "title": "OpenActive Activity List",
-          "description": "This document describes the OpenActive standard activity list.",
-          "license": "https://creativecommons.org/licenses/by/4.0/"
-        },
-        {
-          "type": "ConceptScheme",
-          "id": "https://data.emduk.org/activity-list/activity-list.jsonld",
-          "title": "EMD UK Restricted Activity List",
-          "description": "List of activities within scope of EMD UK",
-          "beta:creator": "EMD UK"
+    "ConceptScheme": {
+      "type": "imin:CollectionIndex",
+      "id": "https://meta.imin.co/v2#/imin:index/ConceptScheme",
+      "imin:index": {
+        "activity": {
+          "id": "https://meta.imin.co/v2#/imin:index/ConceptScheme/imin:index/activity",
+          "type": "imin:Collection",
+          "imin:totalItems": 2,
+          "imin:item": [
+            {
+              "type": "ConceptScheme",
+              "id": "https://openactive.io/activity-list",
+              "title": "OpenActive Activity List",
+              "description": "This document describes the OpenActive standard activity list.",
+              "license": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            {
+              "type": "ConceptScheme",
+              "id": "https://data.emduk.org/activity-list/activity-list.jsonld",
+              "title": "EMD UK Restricted Activity List",
+              "description": "List of activities within scope of EMD UK",
+              "beta:creator": "EMD UK"
+            }
+          ]
         }
-      ]
+      }
     }
   }
 }
