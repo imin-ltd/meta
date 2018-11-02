@@ -216,53 +216,65 @@
       }
     },
     "collection": {
+      "type": "imin:CollectionIndex",
       "id": "https://meta.imin.co/v2#/imin:index/collection",
-      "type": "imin:Collection",
-      "imin:totalItems": 3,
-      "imin:item": [
-        {
-          "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/strength-and-conditioning.jsonld",
-          "title": "Strength and Conditioning",
-          "description": "Group Exercise and Dance classes considered good for Strength and Conditioning.",
-          "beta:creator": "EMD UK"
-        },
-        {
-          "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/holistic.jsonld",
-          "title": "Holistic",
-          "description": "Group Exercise and Dance classes considered Holistic.",
-          "beta:creator": "EMD UK"
-        },
-        {
-          "type": "beta:ConceptCollection",
-          "id": "https://data.emduk.org/collections/cardio.jsonld",
-          "title": "Cardio",
-          "description": "Group Exercise and Dance classes considered good for Cardio.",
-          "beta:creator": "EMD UK"
+      "imin:index": {
+        "activity-list": {
+          "id": "https://meta.imin.co/v2#/imin:index/collection/imin:index/activity-list",
+          "type": "imin:Collection",
+          "imin:totalItems": 3,
+          "imin:item": [
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://data.emduk.org/collections/strength-and-conditioning.jsonld",
+              "title": "Strength and Conditioning",
+              "description": "Group Exercise and Dance classes considered good for Strength and Conditioning.",
+              "beta:creator": "EMD UK"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://data.emduk.org/collections/holistic.jsonld",
+              "title": "Holistic",
+              "description": "Group Exercise and Dance classes considered Holistic.",
+              "beta:creator": "EMD UK"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://data.emduk.org/collections/cardio.jsonld",
+              "title": "Cardio",
+              "description": "Group Exercise and Dance classes considered good for Cardio.",
+              "beta:creator": "EMD UK"
+            }
+          ]
         }
-      ]
+      }
     },
     "scheme": {
+      "type": "imin:CollectionIndex",
       "id": "https://meta.imin.co/v2#/imin:index/scheme",
-      "type": "imin:Collection",
-      "imin:totalItems": 2,
-      "imin:item": [
-        {
-          "type": "ConceptScheme",
-          "id": "https://openactive.io/activity-list",
-          "title": "OpenActive Activity List",
-          "description": "This document describes the OpenActive standard activity list.",
-          "license": "https://creativecommons.org/licenses/by/4.0/"
-        },
-        {
-          "type": "ConceptScheme",
-          "id": "https://data.emduk.org/activity-list/activity-list.jsonld",
-          "title": "EMD UK Restricted Activity List",
-          "description": "List of activities within scope of EMD UK",
-          "beta:creator": "EMD UK"
+      "imin:index": {
+        "activity-list": {
+          "id": "https://meta.imin.co/v2#/imin:index/scheme/imin:index/activity-list",
+          "type": "imin:Collection",
+          "imin:totalItems": 2,
+          "imin:item": [
+            {
+              "type": "ConceptScheme",
+              "id": "https://openactive.io/activity-list",
+              "title": "OpenActive Activity List",
+              "description": "This document describes the OpenActive standard activity list.",
+              "license": "https://creativecommons.org/licenses/by/4.0/"
+            },
+            {
+              "type": "ConceptScheme",
+              "id": "https://data.emduk.org/activity-list/activity-list.jsonld",
+              "title": "EMD UK Restricted Activity List",
+              "description": "List of activities within scope of EMD UK",
+              "beta:creator": "EMD UK"
+            }
+          ]
         }
-      ]
+      }
     }
   }
 }
