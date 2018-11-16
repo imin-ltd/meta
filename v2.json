@@ -100,7 +100,7 @@
           "imin:item": [
             {
               "id": "beta:OnlinePrepayment",
-              "name": "Online Payment",
+              "name": "Online Booking and Payment (via provider's site)",
               "type": "beta:AvailableChannelType"
             },
             {
@@ -112,6 +112,11 @@
               "id": "beta:TelephonePrepayment",
               "name": "Telephone Payment",
               "type": "beta:AvailableChannelType"
+            },
+            {
+              "id": "beta:OpenBookingPrepayment",
+              "name": "Online Booking and Payment",
+              "type": "beta:OpenBookingPrepayment"
             }
           ]
         },
