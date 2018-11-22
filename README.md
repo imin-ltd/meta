@@ -1,5 +1,5 @@
 # imin API metadata
-Metadata related to each API version. This is provided as a convenience for developers.
+Metadata related to each API version. This is provided as a convenience for developers, served via a CDN.
 
 
 ## Version 2
