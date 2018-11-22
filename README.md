@@ -1,5 +1,5 @@
 # imin API metadata
-Metadata related to each API version. This includes is provided outside of the SLA, via the GitHub Pages CDN, as a convenience for developers.
+Metadata related to each API version. This is provided as a convenience for developers.
 
 
 ## Version 2
