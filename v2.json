@@ -264,7 +264,7 @@
         "activity": {
           "id": "https://meta.imin.co/v2#/imin:index/ConceptScheme/imin:index/activity",
           "type": "imin:Collection",
-          "imin:totalItems": 2,
+          "imin:totalItems": 3,
           "imin:item": [
             {
               "type": "ConceptScheme",
@@ -279,6 +279,13 @@
               "title": "EMD UK Restricted Activity List",
               "description": "List of activities within scope of EMD UK",
               "beta:creator": "EMD UK"
+            },
+            {
+              "type": "ConceptScheme",
+              "id": "https://opendata.thisgirlcan.co.uk/activity-list/activity-list.jsonld",
+              "title": "This Girl Can Restricted Activity List",
+              "description": "List of activities within scope of This Girl Can",
+              "beta:creator": "Sport England"
             }
           ]
         }
