@@ -252,6 +252,54 @@
               "definition": "Group Exercise and Dance classes considered good for Cardio.",
               "beta:publisher": "EMD UK",
               "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://sportengland-jointhemovement.github.io/collections/boxing-fitness.jsonld",
+              "prefLabel": "Boxing Fitness",
+              "definition": "Activity types that fit under the 'Boxing Fitness' drop down filter on the Join the Movement virtual timetable",
+              "beta:publisher": "Sport England",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://sportengland-jointhemovement.github.io/collections/dance-fitness.jsonld",
+              "prefLabel": "Dance Fitness",
+              "definition": "Activity types that fit under the 'Dance Fitness' drop down filter on the Join the Movement virtual timetable",
+              "beta:publisher": "Sport England",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://sportengland-jointhemovement.github.io/collections/hiit.jsonld",
+              "prefLabel": "HIIT",
+              "definition": "Activity types that fit under the 'HIIT' drop down filter on the Join the Movement virtual timetable",
+              "beta:publisher": "Sport England",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://sportengland-jointhemovement.github.io/collections/martial-arts-fitness.jsonld",
+              "prefLabel": "Martial Arts Fitness",
+              "definition": "Activity types that fit under the 'Martial Arts Fitness' drop down filter on the Join the Movement virtual timetable",
+              "beta:publisher": "Sport England",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://sportengland-jointhemovement.github.io/collections/pilates-core-fitness.jsonld",
+              "prefLabel": "Pilates & Core Fitness",
+              "definition": "Activity types that fit under the 'Pilates & Core Fitness' drop down filter on the Join the Movement virtual timetable",
+              "beta:publisher": "Sport England",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://sportengland-jointhemovement.github.io/collections/yoga.jsonld",
+              "prefLabel": "Yoga",
+              "definition": "Activity types that fit under the 'Yoga' drop down filter on the Join the Movement virtual timetable",
+              "beta:publisher": "Sport England",
+              "inScheme": "https://openactive.io/activity-list"
             }
           ]
         }
