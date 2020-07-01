@@ -96,7 +96,7 @@
         "beta:AvailableChannelType": {
           "id": "https://meta.imin.co/v2#/imin:index/Enumeration/imin:index/beta:AvailableChannelType",
           "type": "imin:Collection",
-          "imin:totalItems": 3,
+          "imin:totalItems": 4,
           "imin:item": [
             {
               "id": "beta:OnlinePrepayment",
@@ -227,7 +227,7 @@
         "activity": {
           "id": "https://meta.imin.co/v2#/imin:index/beta:ConceptCollection/imin:index/activity",
           "type": "imin:Collection",
-          "imin:totalItems": 3,
+          "imin:totalItems": 9,
           "imin:item": [
             {
               "type": "beta:ConceptCollection",
