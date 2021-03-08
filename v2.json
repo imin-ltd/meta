@@ -227,7 +227,7 @@
         "activity": {
           "id": "https://meta.imin.co/v2#/imin:index/beta:ConceptCollection/imin:index/activity",
           "type": "imin:Collection",
-          "imin:totalItems": 9,
+          "imin:totalItems": 10,
           "imin:item": [
             {
               "type": "beta:ConceptCollection",
@@ -299,6 +299,14 @@
               "prefLabel": "Yoga",
               "definition": "Activity types that fit under the 'Yoga' drop down filter on the Join the Movement virtual timetable",
               "beta:publisher": "Sport England",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://bpa-parasport.github.io/parasport-openactive/collections/something-different.jsonld",
+              "prefLabel": "Something a little bit different",
+              "definition": "Contains all of the activity types that are not explicitly covered on the parasport.org.uk website",
+              "beta:publisher": "Parasport",
               "inScheme": "https://openactive.io/activity-list"
             }
           ]
