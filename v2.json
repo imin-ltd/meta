@@ -231,26 +231,23 @@
           "imin:item": [
             {
               "type": "beta:ConceptCollection",
-              "id": "https://data.emduk.org/collections/strength-and-conditioning.jsonld",
+              "id": "https://openactive.io/activity-list/collections/strength-and-conditioning.jsonld",
               "prefLabel": "Strength and Conditioning",
               "definition": "Group Exercise and Dance classes considered good for Strength and Conditioning.",
-              "beta:publisher": "EMD UK",
               "inScheme": "https://openactive.io/activity-list"
             },
             {
               "type": "beta:ConceptCollection",
-              "id": "https://data.emduk.org/collections/holistic.jsonld",
+              "id": "https://openactive.io/activity-list/collections/holistic.jsonld",
               "prefLabel": "Holistic",
               "definition": "Group Exercise and Dance classes considered Holistic.",
-              "beta:publisher": "EMD UK",
               "inScheme": "https://openactive.io/activity-list"
             },
             {
               "type": "beta:ConceptCollection",
-              "id": "https://data.emduk.org/collections/cardio.jsonld",
+              "id": "https://openactive.io/activity-list/collections/cardio.jsonld",
               "prefLabel": "Cardio",
               "definition": "Group Exercise and Dance classes considered good for Cardio.",
-              "beta:publisher": "EMD UK",
               "inScheme": "https://openactive.io/activity-list"
             },
             {
