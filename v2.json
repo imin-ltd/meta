@@ -305,6 +305,22 @@
               "definition": "Contains all of the activity types that are not explicitly covered on the parasport.org.uk website",
               "beta:publisher": "Parasport",
               "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://londonsport.theservicefinder.com/json/conceptCollections-individual.jsonld",
+              "prefLabel": "Individual",
+              "definition": "Whereby the activity is mainly focused on a single participant. The participant may engage in the activity with others, but can participate in the activity without the need for other members",
+              "beta:publisher": "Digital CoProduction",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://londonsport.theservicefinder.com/json/conceptCollections-team.jsonld",
+              "prefLabel": "Team",
+              "definition": "Whereby the activity is mainly focused on more than 1 participant",
+              "beta:publisher": "Digital CoProduction",
+              "inScheme": "https://openactive.io/activity-list"
             }
           ]
         }
