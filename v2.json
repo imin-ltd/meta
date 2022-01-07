@@ -321,6 +321,14 @@
               "definition": "Whereby the activity is mainly focused on more than 1 participant",
               "beta:publisher": "Digital CoProduction",
               "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://playwaze.com/opendata/collections/school-friendly.jsonld",
+              "prefLabel": "School Friendly",
+              "definition": "Activity types that are appropriate for a school to show to children",
+              "beta:publisher": "Playwaze",
+              "inScheme": "https://openactive.io/activity-list"
             }
           ]
         }
