@@ -329,6 +329,70 @@
               "definition": "Activity types that are appropriate for a school to show to children",
               "beta:publisher": "Playwaze",
               "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://teamplayed.github.io/collections/aqua.jsonld",
+              "prefLabel": "Aqua - by Played",
+              "definition": "Activity types that go into the 'Aqua' category on Played's Activity Finders.",
+              "beta:publisher": "Played",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://teamplayed.github.io/collections/cardio.jsonld",
+              "prefLabel": "Cardio - by Played",
+              "definition": "'Cardio' to be used as a category in Played's Activity Finders.",
+              "beta:publisher": "Played",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://teamplayed.github.io/collections/extreme.jsonld",
+              "prefLabel": "Extreme - by Played",
+              "definition": "'Extreme' to be used as a category in Played's Activity Finders.",
+              "beta:publisher": "Played",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://teamplayed.github.io/collections/hollistic.jsonld",
+              "prefLabel": "Holistic - by Played",
+              "definition": "'Holistic' to be used as a category in Played's Activity Finders.",
+              "beta:publisher": "Played",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://teamplayed.github.io/collections/low-impact.jsonld",
+              "prefLabel": "Low Impact - by Played",
+              "definition": "'Low Impact' to be used as a category in Played's Activity Finders.",
+              "beta:publisher": "Played",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://teamplayed.github.io/collections/outdoor.jsonld",
+              "prefLabel": "Outdoor - by Played",
+              "definition": "'Outdoor' to be used as a category in Played's Activity Finders.",
+              "beta:publisher": "Played",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://teamplayed.github.io/collections/sporty.jsonld",
+              "prefLabel": "Sporty - by Played",
+              "definition": "'Sporty' to be used as a category in Played's Activity Finders.",
+              "beta:publisher": "Played",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://teamplayed.github.io/collections/walking.jsonld",
+              "prefLabel": "Walking - by Played",
+              "definition": "'Walking' to be used as a category in Played's Activity Finders.",
+              "beta:publisher": "Played",
+              "inScheme": "https://openactive.io/activity-list"
             }
           ]
         }
