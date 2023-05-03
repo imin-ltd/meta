@@ -11,6 +11,7 @@
     "url": "https://www.imin.co/"
   },
   "dataset": [
-    "https://api.premiertennis.co.uk/openactive"
+    "https://api.premiertennis.co.uk/openactive",
+    "https://data.englandnetball.co.uk/"
   ]
 }

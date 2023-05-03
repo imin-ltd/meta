@@ -4,7 +4,7 @@
   "@id": "https://meta.imin.co/data-catalogs/data-catalog-collection.jsonld",
   "name": "Collection of all data catalogs recognised as compliant by OpenActive, with the addition of any other data catalogs used by imin",
   "hasPart": [
-    "https://openactive.io/data-catalogs/data-catalog-collection.jsonld",
+    //"https://openactive.io/data-catalogs/data-catalog-collection.jsonld",
     "https://meta.imin.co/data-catalogs/singular.jsonld"
   ],
   "datePublished": "2023-05-03T11:51:54+01:00",
