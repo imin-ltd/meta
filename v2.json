@@ -227,7 +227,7 @@
         "activity": {
           "id": "https://meta.imin.co/v2#/imin:index/beta:ConceptCollection/imin:index/activity",
           "type": "imin:Collection",
-          "imin:totalItems": 10,
+          "imin:totalItems": 11,
           "imin:item": [
             {
               "type": "beta:ConceptCollection",
@@ -391,6 +391,14 @@
               "id": "https://teamplayed.github.io/collections/walking.jsonld",
               "prefLabel": "Walking - by Played",
               "definition": "'Walking' to be used as a category in Played's Activity Finders.",
+              "beta:publisher": "Played",
+              "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://teamplayed.github.io/collections/olympics.jsonld",
+              "prefLabel": "Olympics - by Played",
+              "definition": "For Active Essex`s Find Your Active Activity Finder to promote activity around the Olympics",
               "beta:publisher": "Played",
               "inScheme": "https://openactive.io/activity-list"
             }
