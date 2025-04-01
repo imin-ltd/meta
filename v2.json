@@ -401,6 +401,14 @@
               "definition": "For Active Essex`s Find Your Active Activity Finder to promote activity around the Olympics",
               "beta:publisher": "Played",
               "inScheme": "https://openactive.io/activity-list"
+            },
+            {
+              "type": "beta:ConceptCollection",
+              "id": "https://teamplayed.github.io/collections/recommended.jsonld",
+              "prefLabel": "Recommended Activities",
+              "definition": "Creating a collection which focuses on activities that are suitable for users that are not looking for high intensity gym type sessions and are instead looking for low impact or family friendly activities.",
+              "beta:publisher": "Played",
+              "inScheme": "https://openactive.io/activity-list"
             }
           ]
         }
