@@ -412,7 +412,7 @@
             },
             {
               "type": "beta:ConceptCollection",
-              "id": "https://github.com/teamplayed/teamplayed.github.io/blob/main/collections/strengthldnsport.jsonld",
+              "id": "https://teamplayed.github.io/collections/strengthldnsport.jsonld",
               "prefLabel": "Strength by London Sport",
               "definition": "A collection of Strength based activity by London Sport",
               "beta:publisher": "Played",
@@ -420,7 +420,7 @@
             },
             {
               "type": "beta:ConceptCollection",
-              "id": "https://github.com/teamplayed/teamplayed.github.io/blob/main/collections/cardioldnsport.jsonld",
+              "id": "https://teamplayed.github.io/collections/cardioldnsport.jsonld",
               "prefLabel": "Cardio - London Sport",
               "definition": "A collection of 'cardio activities' created by London Sport",
               "beta:publisher": "Played",
@@ -428,7 +428,7 @@
             },
             {
               "type": "beta:ConceptCollection",
-              "id": "https://github.com/teamplayed/teamplayed.github.io/blob/main/collections/flexibilityldnsport.jsonld",
+              "id": "https://teamplayed.github.io/collections/flexibilityldnsport.jsonld",
               "prefLabel": "Flexibility & Balance- London Sport",
               "definition": "A collection of flexibility and balance activities created by London Sport",
               "beta:publisher": "Played",
